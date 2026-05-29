@@ -14,7 +14,7 @@ export default function Home() {
 
       {/* Konten Utama - Beri padding-top agar tidak terlalu ke atas */}
       <div className="relative z-10 w-full max-w-2xl px-6 md:px-20 pt-24 pb-10 text-left">
-        <p className="text-amber-500 font-bold tracking-widest uppercase mb-2">CoffeeBeni</p>
+        <p className="bg-gradient-to-r from-amber-500 to-yellow-300 bg-clip-text text-transparent font-bold tracking-widest uppercase mb-2">CoffeeBeni</p>
         <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
           Jelajahi Cita Rasa Otentik Coffee Lokal
         </h1>
