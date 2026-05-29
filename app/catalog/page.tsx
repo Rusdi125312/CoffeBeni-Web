@@ -18,7 +18,7 @@ export default function Catalog() {
   // Fungsi untuk handle klik beli ke WA
   const handleBeliWa = (productName: string, price: number) => {
     const phoneNumber = "6285720937430"; // GANTI DENGAN NOMOR WA KAMU
-    const message = `Halo BenCoffe, saya ingin memesan kopi *${productName}* seharga Rp ${price.toLocaleString()}. Apakah masih tersedia?`;
+    const message = `Halo CoffeBeni, saya ingin memesan kopi *${productName}* seharga Rp ${price.toLocaleString()}. Apakah masih tersedia?`;
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
 
