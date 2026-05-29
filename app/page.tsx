@@ -38,7 +38,7 @@ export default function Home() {
           href="/catalog" 
           className="bg-amber-700/90 hover:bg-amber-600 text-white px-10 py-4 rounded-full text-lg font-semibold inline-block"
         >
-          Lihat Katalog Unt Beli →
+          Lihat Katalog Untuk Beli →
         </Link>
       </div>
 
