@@ -8,7 +8,7 @@ export default function Home() {
       {/* Background Image - Tetap di posisi tetap agar tidak ikut scroll */}
       <div 
         className="fixed inset-0 bg-cover bg-center z-0"
-        style={{ backgroundImage: "url('/bg-coffee.JPEG')" }}
+        style={{ backgroundImage: "url('/bg-coffee.png')" }}
       />
       <div className="fixed inset-0 bg-black/50 z-0" /> 
 
@@ -38,7 +38,7 @@ export default function Home() {
           href="/catalog" 
           className="bg-amber-700/90 hover:bg-amber-600 text-white px-10 py-4 rounded-full text-lg font-semibold inline-block"
         >
-          Lihat Katalog Untuk Beli →
+          Lihat Katalog Unt Beli →
         </Link>
       </div>
 
